@@ -1,0 +1,264 @@
+  /* * {
+   box-sizing: border-box;
+   } */
+
+  .head1{
+    background-color: rgb(167, 207, 23);
+      color: brown;  
+      height: 120px; 
+    }
+  .head1 h1{
+           text-align:center;
+           margin: 3px;
+           
+    }
+    .head1 h2, h2{
+      text-align: center;
+      margin: 0px;
+  
+    }
+   
+   .head1 img{
+      float: left;
+      padding: 6px;
+      width: 120px;
+      height: 100px;
+
+   }
+
+     /* //droupdown menu */
+
+   .menubar{
+     background-color:rgb(0, 128, 32) ;
+
+   }
+
+   ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 0px;
+
+  }
+  ul li{
+    display: inline-block;
+    position: relative;
+    border-right: 1px solid white;
+
+  }
+  ul li a{
+    display: block;
+    padding: 15px 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+  }
+   ul li .dropdown {
+          width: auto;   
+          position: absolute;
+          display: none;
+
+   }
+   ul li .dropdown li {
+         display: block;
+         background: #169e12 ;  
+         margin:0px -40px;
+         padding: 0;
+         border-bottom: 1px solid white;    
+   }
+   ul li .dropdown li a{
+    font-size: 20px;     
+
+   }
+   ul li a:hover {
+    color: #cf1783;
+    background: #3744b6;
+
+   }
+   ul li:hover .dropdown{
+    display: block; 
+     
+   }
+
+
+  /* ul li ul.dropdown {
+    width: auto;
+    position: absolute;
+    display: none;
+    }
+
+  ul li ul.dropdown li {
+    display: block;
+    background: #169e12;
+    margin: 0px -32px;
+    padding: 0;
+    }
+
+   ul li ul.dropdown li a{
+       font-size: 20px;
+     }
+   
+    ul li a:hover {
+        background: #4cdbe6;
+        color: #cf1783;
+  
+        }
+    ul li:hover ul.dropdown{
+        display: block;
+        } */
+
+
+
+   /* //body  */
+.continer{
+
+      align-items: center;
+
+}
+.continer .middle h3{     
+       margin-left: 750px;
+       width: 250px;
+       color: #b816aa;
+       border-color: #0077ff;
+       border-style: ridge;
+       border-width: 20px;   
+       display:center;
+       font-size: 25px;
+       text-align: center;
+       /* align-items: center; */
+   
+ }
+
+ .continer .middle p{
+  font-size: 20px;
+  text-align: center;
+
+ }
+
+ .displayimg img{
+        margin-left: 100px;
+        width: 90%;
+        height: 700px;
+      }
+
+
+ /* //Login Form */
+    .login{
+       border: 2px solid gold;
+       width: 500px;
+       height: 300px;
+       /* margin: auto; */
+       margin: auto;
+       
+      }
+     .login h1{
+         color: blueviolet;
+         text-align: center;
+
+     } 
+     form{
+             text-align:center;
+             margin-left: justify;
+            
+     }
+
+     .login .btn{
+      background-color: #b0cebc;
+
+    }
+     .login .btn:hover{
+            background-color: #1db142;
+
+     }
+  
+
+ /* // footer */
+.footer{
+   background-color: blueviolet; 
+   display: flex;
+   height: 150px;
+
+}
+
+.footer img{
+      float: left;
+      width: 90px;
+      height: 70px;
+      padding: 4px;
+
+}
+ .footermenu ul {
+  display: block; 
+  margin-left: 0px; 
+  margin-top: 20px;
+}
+   .footermenu ul li{
+      display: contents;
+      padding-left: 10px;       
+}
+ .footermenu ul li a{
+        color: #f3f7f2;
+        font-size: 20px;
+        padding: 0;
+        text-align: left;
+        margin-right: 400px;
+
+}
+ .footermenu ul li a:hover{
+          color: #0a0881;
+
+    }
+.implink {
+     text-align: center;
+     margin-right: 500px;
+
+}
+
+.implink h2 {
+  color:rgb(95, 207, 95);
+  padding-top: 10px;
+  margin-left: 40px;
+
+}
+.implink a{
+       color: white;
+       margin-top: 0px;
+       text-decoration: none;
+       padding: 0px;
+   
+     }
+
+.implink a:hover{
+    color: #FF00FF;
+
+}
+
+.time {
+
+   float: right;
+}
+.time h3{
+    color: rgb(95, 207, 95);
+
+}
+.time tr td{
+ color: white;
+
+}
+
+
+@media screen and(max-width:1600px) {
+  .displayimg {
+         width: 100%;
+
+  }
+  
+}
+
+@media screen and(max-width:992px) {
+  .middle h1 {
+         width: 50%;
+
+  }
+  
+}
